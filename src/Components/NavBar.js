@@ -15,22 +15,22 @@ const NavBar = () => {
                             Home
                         </NavLink>
                     </li>
-                    <li>
+                    <li className="nav-item">
                         <NavLink to="/about" exact activeClassName="active">
                             About
                         </NavLink>
                     </li>
-                    <li>
+                    <li className="nav-item">
                         <NavLink to="/portfolio" exact activeClassName="active">
                             Portfolio
                         </NavLink>
                     </li>
-                    <li>
+                    <li className="nav-item">
                         <NavLink to="/blogs" exact activeClassName="active">
                             Blogs
                         </NavLink>
                     </li>
-                    <li>
+                    <li className="nav-item">
                         <NavLink to="/contact" exact activeClassName="active">
                             Contact
                         </NavLink>
