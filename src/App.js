@@ -8,7 +8,6 @@ import BlogsPage from './Pages/BlogsPage';
 import ContactPage from './Pages/ContactPage';
 
 
-
 function App() {
   return (
     <div className="App">
