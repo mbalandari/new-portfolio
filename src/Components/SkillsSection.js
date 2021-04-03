@@ -1,6 +1,6 @@
 import React from 'react'
 
-const SkillsSection = ({ skill, progress }) => {
+const SkillsSection = ({ skill, progress, width }) => {
     return (
         <div className="SkillsSection">
             <div className="skills-container">
@@ -8,7 +8,9 @@ const SkillsSection = ({ skill, progress }) => {
                 <div className="skill-bar">
                     <p className="skill-text">{progress}</p>
                     <div className="skill-progress">
-                        <div className="progress"></div>
+                        <div className="progress">
+                            <div className="inner-progress" style={{ width: width }}></div>
+                        </div>
                     </div>
                 </div>
             </div>
