@@ -1,12 +1,15 @@
 import React from 'react'
 
-const SkillsSection = () => {
+const SkillsSection = ({ skill, progress }) => {
     return (
         <div className="SkillsSection">
             <div className="skills-container">
-                <h5 className="skill-title"></h5>
+                <h5 className="skill-title">{skill}</h5>
                 <div className="skill-bar">
-
+                    <p className="skill-text">{progress}</p>
+                    <div className="skill-progress">
+                        <div className="progress"></div>
+                    </div>
                 </div>
             </div>
         </div>
