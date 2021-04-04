@@ -1,9 +1,23 @@
 import React from 'react'
+import allBlogs from '../Components/allBlogs'
 
 const BlogsPage = () => {
     return (
         <div className="BlogsPage">
-            <h1>Blogs</h1>
+            {
+                allBlogs.map((blog) => {
+                    return (
+                        <div className="blog" key={blog.id}>
+                            <div className="blog-content">
+                                <img src={blog.image} alt="pic" />
+                                <a href={blog.link} className="blog-link">
+                                    {blog.title}
+                                </a>
+                            </div>
+                        </div>
+                    )
+                })
+            }
         </div>
     )
 }
