@@ -4,6 +4,9 @@ import ImageSection from '../Components/ImageSection'
 import SkillsSection from '../Components/SkillsSection'
 import ServicesSection from '../Components/ServicesSection'
 import design from '../img/design.svg'
+import intelligence from '../img/intelligence.svg'
+import gamedev from '../img/game-dev.svg'
+
 
 const AboutPage = () => {
     return (
@@ -23,8 +26,8 @@ const AboutPage = () => {
             </div>
             <div className="services-container">
                 <ServicesSection image={design} title={'Web Development'} text={"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit minima facere ducimus nisi."} />
-                <ServicesSection image={design} title={'Web Development'} text={"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit minima facere ducimus nisi."} />
-                <ServicesSection image={design} title={'Web Development'} text={"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit minima facere ducimus nisi."} />
+                <ServicesSection image={intelligence} title={'Artificial Intelligence'} text={"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit minima facere ducimus nisi."} />
+                <ServicesSection image={gamedev} title={'Game Development'} text={"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit minima facere ducimus nisi."} />
             </div>
         </div>
     )
