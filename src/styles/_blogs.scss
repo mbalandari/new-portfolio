@@ -5,11 +5,34 @@
     .blog{
         background-color: #161925;
         width: 100%;
+        padding: 1rem;
+        overflow: hidden;
         .blog-content{
-            padding: 1rem;
+            overflow: hidden;
+            padding-bottom: 2rem;
             img{
                 width: 100%;
+                transition: all .2s ease-in-out;
+                &:hover{
+                    transform: scale(1.1);
+                }
+                padding-bottom: 2rem;
+            }
+            .blog-link{
+                color: inherit;
+                font-family: inherit;
+                text-decoration: none;
+                font-size: 2rem;
+                padding-bottom: 2rem;
+                transition: all .4s ease-in-out;
+                &:hover{
+                    color: #037FFF;
+                }
             }
         }
     }
+}
+
+.blog-title{
+    margin-bottom: 4rem;
 }
