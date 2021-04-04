@@ -1,0 +1,15 @@
+.BlogsPage{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2.5rem;
+    .blog{
+        background-color: #161925;
+        width: 100%;
+        .blog-content{
+            padding: 1rem;
+            img{
+                width: 100%;
+            }
+        }
+    }
+}
