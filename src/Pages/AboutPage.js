@@ -24,10 +24,11 @@ const AboutPage = () => {
                 <SkillsSection skill={'Python'} progress={'70%'} width={'70%'} />
                 <SkillsSection skill={'MySQL'} progress={'50%'} width={'50%'} />
             </div>
+            <Title title={'Sevices'} span={'Services'} />
             <div className="services-container">
                 <ServicesSection image={design} title={'Web Development'} text={"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit minima facere ducimus nisi."} />
-                <ServicesSection image={intelligence} title={'Artificial Intelligence'} text={"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit minima facere ducimus nisi."} />
-                <ServicesSection image={gamedev} title={'Game Development'} text={"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit minima facere ducimus nisi."} />
+                <ServicesSection image={intelligence} title={'Data Analysis'} text={"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit minima facere ducimus nisi."} />
+                <ServicesSection image={gamedev} title={'Machine Learning'} text={"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit minima facere ducimus nisi."} />
             </div>
         </div>
     )
