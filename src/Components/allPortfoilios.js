@@ -68,14 +68,34 @@ const portfolios = [
     },
     {
         id: 7,
-        category: 'Test Port',
+        category: 'React Js',
         link1: 'www.youtube.com',
         link2: 'www.github.com',
         icon1: 'G',
         icon2: 'Y',
         image: port4,
-        title: 'Vanilla Javascript Website'
-    }
+        title: 'Test Portfolio 1'
+    },
+    {
+        id: 8,
+        category: 'React Js',
+        link1: 'www.youtube.com',
+        link2: 'www.github.com',
+        icon1: 'G',
+        icon2: 'Y',
+        image: port4,
+        title: 'Test Portfolio 2'
+    },
+    {
+        id: 9,
+        category: 'Javascript',
+        link1: 'www.youtube.com',
+        link2: 'www.github.com',
+        icon1: 'G',
+        icon2: 'Y',
+        image: port4,
+        title: 'Test Portfolio 3'
+    },
 ]
 
 export default portfolios;
