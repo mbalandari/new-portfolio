@@ -1,0 +1,16 @@
+.PortfolioPage{
+
+}
+
+.menu-port{
+    // width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    .portfo{
+        .image-data{
+            img{
+                width: 100%;
+            }
+        }
+    }
+}
