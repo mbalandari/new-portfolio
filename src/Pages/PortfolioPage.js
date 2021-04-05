@@ -4,11 +4,18 @@ import MenuItems from '../Components/MenuItems'
 import Title from '../Components/Title'
 import portfolios from '../Components/allPortfoilios'
 
+
+const allCategories = ['All', ...new Set(portfolios.map(item => item.category))];
+
 const PortfolioPage = () => {
-    const [categories, setCategories] = useState(null);
+    const [categories, setCategories] = useState(allCategories);
     const [menuItems, setMenuItems] = useState(portfolios);
 
     const filter = (category) => {
+        if (category === "All") {
+            setMenuItems(portfolios)
+            return;
+        }
         const filteredData = portfolios.filter((item) => {
             return (
                 item.category === category
@@ -22,7 +29,7 @@ const PortfolioPage = () => {
                 <Title title={'Portfolio'} span={'Portfolio'} />
             </div>
             <div className="portfolio-content">
-                <Categories filter={filter} />
+                <Categories filter={filter} categories={categories} />
                 <MenuItems menuItem={menuItems} />
             </div>
         </div>
