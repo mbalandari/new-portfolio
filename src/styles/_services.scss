@@ -7,6 +7,11 @@
         border-bottom: 1px solid #2e344e;
         border-top: 8px solid #2e344e;
         transition: all .4s ease-in-out;
+        @media screen and (max-width: 1300px) {
+            flex-direction: column;
+            width: 100%;
+            margin-bottom: 1rem;
+        }
         &:hover{
             border-top: 8px solid #037FFF;
         }
@@ -36,4 +41,8 @@
     display: flex;
     justify-content: space-between;
     margin-top: 4rem;
+    @media screen and (max-width: 1300px) {
+        flex-direction: column;
+    }
+   
 }
