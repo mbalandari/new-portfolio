@@ -10,7 +10,6 @@ import ContactPage from './Pages/ContactPage';
 
 
 function App() {
-  const location = useLocation();
   const [navToggle, setNavToggle] = useState(false);
 
   const navClick = () => {
@@ -29,7 +28,7 @@ function App() {
       </div>
       <div className="main-content">
         <div className="content">
-          <Switch location={location} key={location.pathname}>
+          <Switch>
             <Route path="/" exact>
               <HomePage />
             </Route>
