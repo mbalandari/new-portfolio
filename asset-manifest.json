@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/new-portfolio/static/css/main.173f1990.chunk.css",
+    "main.js": "/new-portfolio/static/js/main.f8f6934e.chunk.js",
+    "main.js.map": "/new-portfolio/static/js/main.f8f6934e.chunk.js.map",
+    "runtime-main.js": "/new-portfolio/static/js/runtime-main.81eae174.js",
+    "runtime-main.js.map": "/new-portfolio/static/js/runtime-main.81eae174.js.map",
+    "static/js/2.1032b22c.chunk.js": "/new-portfolio/static/js/2.1032b22c.chunk.js",
+    "static/js/2.1032b22c.chunk.js.map": "/new-portfolio/static/js/2.1032b22c.chunk.js.map",
+    "index.html": "/new-portfolio/index.html",
+    "static/css/main.173f1990.chunk.css.map": "/new-portfolio/static/css/main.173f1990.chunk.css.map",
+    "static/js/2.1032b22c.chunk.js.LICENSE.txt": "/new-portfolio/static/js/2.1032b22c.chunk.js.LICENSE.txt",
+    "static/media/about.8f928c60.jpg": "/new-portfolio/static/media/about.8f928c60.jpg",
+    "static/media/avatar.66db9225.png": "/new-portfolio/static/media/avatar.66db9225.png",
+    "static/media/blog1.7ecbb78c.svg": "/new-portfolio/static/media/blog1.7ecbb78c.svg",
+    "static/media/blog2.09939351.svg": "/new-portfolio/static/media/blog2.09939351.svg",
+    "static/media/blog3.6291ee7c.svg": "/new-portfolio/static/media/blog3.6291ee7c.svg",
+    "static/media/blog4.60aa6cec.svg": "/new-portfolio/static/media/blog4.60aa6cec.svg",
+    "static/media/blog5.2599a6b1.svg": "/new-portfolio/static/media/blog5.2599a6b1.svg",
+    "static/media/design.8ecb3043.svg": "/new-portfolio/static/media/design.8ecb3043.svg",
+    "static/media/App.scss": "/new-portfolio/static/media/dots.9978678b.svg",
+    "static/media/emailme.a60657eb.svg": "/new-portfolio/static/media/emailme.a60657eb.svg",
+    "static/media/game-dev.20147858.svg": "/new-portfolio/static/media/game-dev.20147858.svg",
+    "static/media/intelligence.11bd2ab2.svg": "/new-portfolio/static/media/intelligence.11bd2ab2.svg",
+    "static/media/location.5cd6776e.svg": "/new-portfolio/static/media/location.5cd6776e.svg",
+    "static/media/maya-1.f370e251.jpg": "/new-portfolio/static/media/maya-1.f370e251.jpg",
+    "static/media/phone.ef86e22a.svg": "/new-portfolio/static/media/phone.ef86e22a.svg",
+    "static/media/port1.65d6ecfd.jpg": "/new-portfolio/static/media/port1.65d6ecfd.jpg",
+    "static/media/port2.4aa0b2ba.jpg": "/new-portfolio/static/media/port2.4aa0b2ba.jpg",
+    "static/media/port3.7f41458f.jpg": "/new-portfolio/static/media/port3.7f41458f.jpg",
+    "static/media/port5.1330f6cd.jpg": "/new-portfolio/static/media/port5.1330f6cd.jpg",
+    "static/media/port6.ccfe3b5b.jpg": "/new-portfolio/static/media/port6.ccfe3b5b.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.81eae174.js",
+    "static/js/2.1032b22c.chunk.js",
+    "static/css/main.173f1990.chunk.css",
+    "static/js/main.f8f6934e.chunk.js"
+  ]
+}
