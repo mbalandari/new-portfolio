@@ -1,5 +1,5 @@
 import './App.scss';
-import { Switch, Route } from 'react-router-dom'
+import { Switch, Route, useLocation } from 'react-router-dom'
 import { useState } from 'react';
 import NavBar from './Components/NavBar'
 import HomePage from './Pages/HomePage';
@@ -10,6 +10,7 @@ import ContactPage from './Pages/ContactPage';
 
 
 function App() {
+  const location = useLocation();
   const [navToggle, setNavToggle] = useState(false);
 
   const navClick = () => {
@@ -28,7 +29,7 @@ function App() {
       </div>
       <div className="main-content">
         <div className="content">
-          <Switch>
+          <Switch location={location} key={location.pathname}>
             <Route path="/" exact>
               <HomePage />
             </Route>
