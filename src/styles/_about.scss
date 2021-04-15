@@ -1,3 +1,8 @@
+.AboutPage{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
 .ImageSection{
     display: flex;
     margin-top: 4rem;
