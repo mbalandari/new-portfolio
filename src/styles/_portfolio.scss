@@ -51,7 +51,7 @@
                         text-decoration: none;
                         font-family: inherit;
                         border-radius: 10px;
-                        background-color: #037FFF;
+                        background-color: #DA7B93;
                         color: white;
                         &:not(:last-child){
                             margin-right: 2rem;
@@ -73,7 +73,7 @@
             color: white;
             transition: all .3s ease-in-out;
             &:hover{
-                color: #037FFF;
+                color: #DA7B93;
                 cursor: pointer;
             }
         }
@@ -86,7 +86,7 @@
 
 .btn-port{
     padding: .6rem 2rem;
-    background-color: #0381ff5b;
+    background-color: #da7b933d;
     border: none;
     outline: none;
     cursor: pointer;
@@ -99,13 +99,13 @@
         margin-right: 1rem;
     }
     &:hover{
-        background-color: #037FFF;
+        background-color: #DA7B93;
     }
     &:active{
-        background-color: #037FFF;
+        background-color: #DA7B93;
     }
     &:focus{
-        background-color: #037FFF;
+        background-color: #DA7B93;
     }
 }
 

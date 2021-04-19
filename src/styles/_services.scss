@@ -1,11 +1,11 @@
 .ServicesSection{
     .service{
         width: 95%;
-        background-color: #191D2B;
-        border-left: 1px solid #2e344e;
-        border-right: 1px solid #2e344e;
-        border-bottom: 1px solid #2e344e;
-        border-top: 8px solid #2e344e;
+        background-color: #2E151B;
+        border-left: 1px solid #2F4454;
+        border-right: 1px solid #2F4454;
+        border-bottom: 1px solid #2F4454;
+        border-top: 8px solid #2F4454;
         transition: all .4s ease-in-out;
         @media screen and (max-width: 1300px) {
             flex-direction: column;
@@ -13,7 +13,7 @@
             margin-bottom: 1rem;
         }
         &:hover{
-            border-top: 8px solid #037FFF;
+            border-top: 8px solid #DA7B93;
         }
         .service-content{
             padding: 1rem;
@@ -30,7 +30,7 @@
                     left: 0;
                     width: 30%;
                     height: 1px;
-                    background-color: #2e344e;
+                    background-color: #2F4454;
                 }
             }
         }

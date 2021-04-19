@@ -37,7 +37,7 @@ const NavBar = () => {
                     </li>
                 </ul>
                 <footer className="footer">
-                    <p>@2021 codingMaz</p>
+                    <p>Copyright &copy; by codingMaz</p>
                 </footer>
             </nav>
         </div>
